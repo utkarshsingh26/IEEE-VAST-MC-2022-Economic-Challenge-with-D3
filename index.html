@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    </style>
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div
+        style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; width: 100%;">
+        <div class="ProjectHeading">
+            <h2 id="ProjectTitle">Urban Pulse: Insights into Economic Flourish</h2>
+        </div>
+
+        <div id="mainDiv">
+            <div id="leftDiv">
+                <div class="leftCell">
+                    <svg id="sumit2" width="100%" height="100%">
+
+                    </svg>
+                </div>
+                <div class="leftCell"
+                    style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+                    <label for="age" style="margin-bottom: 10px;">Choose an age group:</label>
+                    <select id="age-group" name="age-group" style="margin-bottom: 10px;">
+                        <option value="" disabled>Select an age-group</option>
+                        <option value="18-30" selected>18-30</option>
+                        <option value="31-40">31-40</option>
+                        <option value="41-50">41-50</option>
+                        <option value="51-60">51-60</option>
+                    </select>
+                    <svg id="utkarsh" width="100%" height="100%"
+                        style="width: 100%; height: 100%; border: 1px solid #000;"></svg>
+                </div>
+
+                <div class="leftCell">
+                    <svg id="sumit1" width="100%" height="100%">
+
+                    </svg>
+                </div>
+                <div class="leftCell"
+                    style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <div style="padding-top: 15px;">
+                        <label style="font-size: 25px;"><input class="dhwanilCheckbox"
+                                style="transform: scale(1.5); padding-right: 5px; padding-left: 5px; margin-right: 10px; margin-left: 10px;"
+                                type="checkbox" id="lowCheckbox" value="Low" checked><b>Low</b></label>
+                        <label style="font-size: 25px;"><input class="dhwanilCheckbox"
+                                style="transform: scale(1.5); padding-right: 5px; padding-left: 5px; margin-right: 10px; margin-left: 10px;"
+                                type="checkbox" id="highSchoolCheckbox" value="HighSchoolOrCollege" checked>
+                            <b>High
+                                School
+                                or College</b></label>
+                        <label style="font-size: 25px;"><input class="dhwanilCheckbox"
+                                style="transform: scale(1.5); padding-right: 5px; padding-left: 5px; margin-right: 10px; margin-left: 10px;"
+                                type="checkbox" id="bachelorsCheckbox" value="Bachelors" checked>
+                            <b>Bachelors</b></label>
+                        <label style="font-size: 25px;"><input class="dhwanilCheckbox"
+                                style="transform: scale(1.5); padding-right: 5px; padding-left: 5px; margin-right: 10px; margin-left: 10px;"
+                                type="checkbox" id="graduateCheckbox" value="Graduate" checked>
+                            <b>Graduate</b></label>
+                    </div>
+                    <svg id="dhwanil" width="100%" height="100%" style="padding-top: 30px;">
+
+                    </svg>
+                </div>
+            </div>
+            <div id="rightDiv">
+                <div id="rightTopDiv">
+                    <div id="rightTopTopDiv">
+                        <svg id="vanshaj" width="100%" height="100%">
+
+                        </svg>
+                    </div>
+                    <div id="rightTopBottomDiv">
+                        <div style="margin-right: 80px;">
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-education" class="layerCheckbox" value="Education"
+                                    checked style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-education">Education</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-food" class="layerCheckbox" value="Food" checked
+                                    style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-food">Food</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-recreation" class="layerCheckbox" value="Recreation"
+                                    checked style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-recreation">Recreation</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-rent" class="layerCheckbox" value="Rent" checked
+                                    style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-rent">Rent</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-shelter" class="layerCheckbox" value="Shelter" checked
+                                    style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-shelter">Shelter</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-wage" class="layerCheckbox" value="Wage" checked
+                                    style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-wage">Wage</label>
+                            </div>
+
+                            <div style="display: flex; align-items: center;">
+                                <input type="checkbox" id="chk-expense" class="layerCheckbox" value="Expense" checked
+                                    style="margin-right: 10px;margin-left: 10px;">
+                                <label for="chk-expense">Expense</label>
+                            </div>
+                        </div>
+
+                        <svg id="ram" width="150%" height="100%">
+
+                        </svg>
+                    </div>
+                </div>
+                <div id="rightBottomDiv">
+                    <svg id="nishanthan" width="100%" height="100%">
+
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="common.js"></script>
+    <script type="module" src="vanshaj.js"></script>
+    <script type="module" src="sumit.js"></script>
+    <script type="module" src="utkarsh.js"></script>
+    <script type="module" src="ram.js"></script>
+    <script type="module" src="dhwanil.js"></script>
+    <script type="module" src="nishanthan.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+/* body {
+    background: linear-gradient(45deg, #f3f4f6, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.myContainer {
+    margin: 40px auto;
+    max-width: 1440px;
+}
+
+.svg-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+}
+
+.svg-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.small_svg,
+.large_svg {
+    width: 100%;
+    background: rgba(74, 82, 90, 0.05);
+    /* A subtle blue tint for the SVG background */
+}
+
+.large_svg {
+    height: 550px;
+}
+
+.small_svg {
+    height: 500px;
+}
+
+
+
+textarea {
+    resize: none;
+    border: 1px solid #e0e0e0;
+    transition: border-color 0.3s;
+}
+
+textarea:hover {
+    border-color: #007bff;
+    /* Match with Bootstrap primary color */
+}
+
+h1 {
+    font-weight: 500;
+    border-bottom: 2px solid #020507;
+    /* Match with Bootstrap primary color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    /* Adjust as needed */
+    max-width: 1440px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.map {
+    height: 1144px;
+    width: 1076px;
+    /*background: url("./data/nishanthan/BaseMap.png") center center no-repeat;*/
+    position: relative;
+    left: 150px;
+}
+
+
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    width: 360px;
+    height: 250px;
+    font: 13px product-sans;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+    opacity: .75;
+    font-weight: bold;
+    font: Georgia;
+
+}
+
+.utkarsh-tooltip {
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+    border: solid black;
+    opacity: .95;
+}
+
+#chart {
+    max-width: 90vw;
+    height: auto;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+    #chart {
+        max-width: 50vw;
+    }
+}
+
+.radar-area {
+    fill-opacity: 0.7;
+}
+
+.axis line,
+.levels line {
+    stroke: black;
+    stroke-opacity: 0.75;
+    stroke-width: 2px;
+}
+
+.axis text,
+.radarChartValue,
+.levelValue {
+    font-family: 'Georgia', serif;
+    fill: #444;
+}
+
+.radarChartValue {
+    font-size: 14px;
+}
+
+.levelValue {
+    font-size: 10px;
+}
+
+.ProjectHeading {
+    text-align: center;
+    color: black;
+    font-family: 'Georgia';
+    margin-top: 40px;
+    font: 80;
+}
+
+/* new css */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFFFE;
+}
+
+
+#mainDiv {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    zoom: 50%;
+}
+
+#leftDiv {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+    zoom: 75%;
+    /* Adjust the gap as needed */
+}
+
+.leftCell {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#rightDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+#rightTopDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+#rightTopTopDiv,
+#rightTopBottomDiv {
+    margin-bottom: 10px;
+}
+
+#rightTopTopDiv,
+#rightTopBottomDiv,
+#rightBottomDiv {
+    flex: 1;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+#ProjectTitle {
+    color: black;
+    font: 24px Georgia;
+    font-weight: 800;
+}
+
+.allText {
+    fill: black;
+    font-weight: bolder;
+    font: 30px Georgia;
+    margin-top: 20px;
+}
+
+.legendText {
+    fill: black;
+    font-weight: bolder;
+    margin-top: 5px;
+    font: 18px Georgia;
+
+}
+
+
+.axisLabels {
+    fill: black;
+    font-weight: bolder;
+    margin-top: 5px;
+    font: 15px Georgia;
+}
+
+.axisTicks {
+    fill: black;
+    font-weight: bolder;
+    margin-top: 5px;
+    font: 16px Georgia;
+}
